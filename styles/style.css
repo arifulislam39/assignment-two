@@ -9,8 +9,8 @@
 header {
     background: rgba(255, 144, 14, 0.1);
     width: 100%;
-    max-width: 1920px;
-    margin: 0 auto;
+    text-align: center;
+
 }
 
 nav {
@@ -69,11 +69,45 @@ ul>li {
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
-    padding: 10px 25px;
+    /* padding: 10px 25px; */
 }
 
 .banner-img {
     border-radius: 8px;
-    padding: 50px 210px 45px 275px;
-    
+    padding-bottom: 45px;
+    /* padding-top: -50px; */
+}
+
+/* Quick-List styles */
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.quick-list {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 85px;
+    margin-left: 300px;
+    margin-right: 270px;
+}
+
+.detail>h3 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+.detail>p{
+    margin-bottom: 33px;
+}
+
+.span-one{
+    color: #727272;
+}
+
+.span-two{
+    color: #FF900E;
 }
