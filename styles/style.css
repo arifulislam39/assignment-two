@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     font-family: 'Work Sans';
 }
@@ -69,8 +69,9 @@ ul>li {
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
-    /* padding: 10px 25px; */
 }
+
+
 
 .banner-img {
     border-radius: 8px;
@@ -121,8 +122,6 @@ ul>li {
     margin: 130px 240px;
 }
 
-.feature-details {}
-
 .vertical {
     border-left: 6px solid #FF900E;
     position: absolute;
@@ -163,10 +162,10 @@ ul>li {
     margin-bottom: 10px;
 }
 
-/* .btn-container{
-    display: flex;
-    justify-content: center;
-} */
+
+.btn-container {
+    margin-top: -200px;
+}
 
 .btn-secondary {
     background: #FF900E;
@@ -176,6 +175,11 @@ ul>li {
     border: none;
     color: #FFFFFF;
 
+
+}
+
+.btn-secondary h3 {
+    color: #FFFFFF;
 }
 
 
@@ -198,8 +202,8 @@ ul>li {
     display: flex;
     justify-content: center;
     gap: 125px;
-    margin-top: 100px;
     text-align: center;
+    margin-top: 100px;
     margin-left: 290px;
     margin-right: 290px;
 }
@@ -209,14 +213,43 @@ ul>li {
     height: 240px;
     border: 1px solid #FF900E;
     border-radius: 8px;
-    padding-top: 50px;
+    text-align: center;
 
 }
+
+.box img {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.box h3 {
+    margin-bottom: 5px;
+}
+
 
 
 .box:hover {
     background-color: rgba(182, 110, 3, 0.905);
-    /* transform: scale(45deg); */
+
+}
+
+/* running projects style */
+
+.project-details {
+    text-align: center;
+
+}
+
+.project-img {
+    display: flex;
+    gap: 20px;
+    width: 350px;
+    margin-top: 40px;
+    margin-left: 240px;
+    margin-right: 240px;
+    border-radius: 20px;
+
+
 }
 
 
@@ -226,7 +259,7 @@ ul>li {
     display: flex;
     justify-content: center;
     gap: 155px;
-    mix-blend-mode:luminosity;
+    mix-blend-mode: luminosity;
     margin: 50px 240px 130px 240px;
 }
 
