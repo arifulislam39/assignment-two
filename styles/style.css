@@ -309,9 +309,24 @@ ul>li {
         width: 100%;
     } */
 
-    ul {
-        display: flex;
+     nav{
+        flex-direction: column;
+    }
+    ul{
         flex-direction: column;
     }
 
+    .images{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .quick-list {
+        flex-direction: column-reverse;
+    }
+    .vertical{
+        display: none;
+    }
+
+    .features-section, .boxes, .img-container{
+        flex-direction: column;
+    }
 }
